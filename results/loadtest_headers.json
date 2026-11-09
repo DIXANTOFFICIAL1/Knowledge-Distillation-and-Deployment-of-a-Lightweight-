@@ -1,0 +1,13 @@
+{
+  "by_replica": {
+    "parser-service-687f8b9d6d-29x4m": 368,
+    "parser-service-687f8b9d6d-9lk1p": 352
+  },
+  "by_version": {
+    "v1": 720
+  },
+  "replica_percentages": {
+    "parser-service-687f8b9d6d-29x4m": 51.11,
+    "parser-service-687f8b9d6d-9lk1p": 48.89
+  }
+}

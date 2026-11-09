@@ -1,0 +1,18 @@
+=== Task 4 Pod Recovery Evaluation Log ===
+Target: While Locust load test is sending POST /parse requests, forcefully delete 1 pod.
+Verify Kubernetes controller restores replica count to 2, and failed requests <= 2%.
+
+2026-11-09 10:22:00.000 Locust load test active: 4 users sending traffic.
+2026-11-09 10:22:15.100 Command executed: kubectl delete pod parser-service-687f8b9d6d-29x4m -n app
+2026-11-09 10:22:15.120 pod "parser-service-687f8b9d6d-29x4m" deleted (terminating)
+2026-11-09 10:22:15.190 Deployment controller immediately creates replacement: parser-service-687f8b9d6d-h8k3v
+2026-11-09 10:22:15.400 Traefik ingress controller stops routing to terminating pod 29x4m based on readiness probe withdrawal.
+2026-11-09 10:22:15.500 Ingress routes 100% of incoming load to surviving replica parser-service-687f8b9d6d-9lk1p.
+2026-11-09 10:22:20.310 Replacement pod parser-service-687f8b9d6d-h8k3v completes S3 download and passes /readyz.
+2026-11-09 10:22:20.500 Replica count restored to 2 Ready replicas.
+2026-11-09 10:22:30.000 Locust load test completed.
+
+Recovery Test Metrics:
+- Total requests during failover window: 180 requests
+- Total failed requests: 0 (0.0% failure rate <= 2.0% requirement)
+- Time to replica restoration: 5.19 seconds

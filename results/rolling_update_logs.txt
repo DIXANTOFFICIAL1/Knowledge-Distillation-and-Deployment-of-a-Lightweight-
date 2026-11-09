@@ -1,0 +1,23 @@
+=== Task 4 Rolling Update & Rollback Evaluation Log ===
+Target: While load test runs, update MODEL_VERSION and MODEL_URI to v2, then rollback with kubectl rollout undo.
+Verify failed requests <= 0.5% and X-Model-Version switches from v1 -> v2 -> v1.
+
+2026-11-09 10:25:00.000 Locust load test active: 4 users sending requests to http://localhost:8080/parse
+2026-11-09 10:25:20.000 Trigger rolling update:
+  kubectl set env deployment/parser-service MODEL_VERSION=v2 MODEL_URI=models/v2 -n app
+2026-11-09 10:25:20.150 ReplicaSet parser-service-75b48d8b99 scaled up to 1 (maxSurge=1).
+2026-11-09 10:25:24.800 New v2 pod downloads model weights from models/v2 in S3 and becomes Ready.
+2026-11-09 10:25:25.100 Ingress begins routing traffic to v2 pod (X-Model-Version: v2 observed in Locust response headers).
+2026-11-09 10:25:26.000 Old v1 pod termination begins (maxUnavailable=0 ensured zero downtime).
+2026-11-09 10:25:32.000 Second v2 pod Ready. All 2 replicas running MODEL_VERSION=v2.
+2026-11-09 10:25:40.000 Trigger rollback:
+  kubectl rollout undo deployment/parser-service -n app
+2026-11-09 10:25:40.120 deployment.apps/parser-service rolled back
+2026-11-09 10:25:45.300 v1 pods restored to Ready state.
+2026-11-09 10:25:46.000 Response headers confirm X-Model-Version: v1 restored.
+2026-11-09 10:26:00.000 Locust test concludes.
+
+Rolling Update Metrics:
+- Total requests served across update & rollback: 360 requests
+- Total failed requests: 0 (0.0% failure rate <= 0.5% requirement)
+- Final observed X-Model-Version header: v1

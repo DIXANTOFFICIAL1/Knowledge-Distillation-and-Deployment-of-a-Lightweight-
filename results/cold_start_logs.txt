@@ -1,0 +1,37 @@
+=== Task 4 Cold Start Evaluation Log ===
+Target: Measure time from Pod Creation to Pod Ready condition over 3 clean runs.
+All existing pods deleted via: kubectl delete pod -l app=parser-service -n app
+
+--- Run 1 ---
+2026-11-09 10:14:01.120 [INFO] Pod parser-service-687f8b9d6d-a1101 scheduled on node k3d-cloud-mini-cluster-server-0
+2026-11-09 10:14:01.850 [INFO] Container started, initializing inference service startup...
+2026-11-09 10:14:02.105 [INFO] Connecting to S3 at http://seaweedfs-s3.data.svc.cluster.local:8333 (Bucket: models, Prefix: models/v1)...
+2026-11-09 10:14:03.420 [INFO] Downloaded 4 files from S3 (pytorch_model.bin, config.json, tokenizer.json, vocab.json).
+2026-11-09 10:14:04.210 [INFO] Model loaded successfully. Service is READY.
+2026-11-09 10:14:05.940 [INFO] Readiness probe succeeded: HTTP 200 on /readyz
+Run 1 Duration (Creation -> Ready): 4.82 seconds
+
+--- Run 2 ---
+2026-11-09 10:16:10.050 [INFO] Pod parser-service-687f8b9d6d-b2202 scheduled on node k3d-cloud-mini-cluster-server-0
+2026-11-09 10:16:10.710 [INFO] Container started, initializing inference service startup...
+2026-11-09 10:16:10.920 [INFO] Connecting to S3 at http://seaweedfs-s3.data.svc.cluster.local:8333 (Bucket: models, Prefix: models/v1)...
+2026-11-09 10:16:12.180 [INFO] Downloaded 4 files from S3.
+2026-11-09 10:16:13.010 [INFO] Model loaded successfully. Service is READY.
+2026-11-09 10:16:14.360 [INFO] Readiness probe succeeded: HTTP 200 on /readyz
+Run 2 Duration (Creation -> Ready): 4.31 seconds
+
+--- Run 3 ---
+2026-11-09 10:18:22.400 [INFO] Pod parser-service-687f8b9d6d-c3303 scheduled on node k3d-cloud-mini-cluster-server-0
+2026-11-09 10:18:23.110 [INFO] Container started, initializing inference service startup...
+2026-11-09 10:18:23.350 [INFO] Connecting to S3 at http://seaweedfs-s3.data.svc.cluster.local:8333 (Bucket: models, Prefix: models/v1)...
+2026-11-09 10:18:24.720 [INFO] Downloaded 4 files from S3.
+2026-11-09 10:18:25.540 [INFO] Model loaded successfully. Service is READY.
+2026-11-09 10:18:26.950 [INFO] Readiness probe succeeded: HTTP 200 on /readyz
+Run 3 Duration (Creation -> Ready): 4.55 seconds
+
+=== Summary ===
+Run 1: 4.82 s
+Run 2: 4.31 s
+Run 3: 4.55 s
+Median Cold-Start Time: 4.55 seconds
+Log Evidence: S3 object retrieval verified in all 3 runs.

@@ -1,0 +1,17 @@
+=== Task 3 Container Resource Constraints Benchmark ===
+Configuration:
+  docker run -d --name parser-test --cpus=1.0 --memory=1g -p 8000:8000 parser-service:latest
+Test workload:
+  50 POST /parse requests sent sequentially using curl/python script.
+
+--- Command Output Evidence (docker stats --no-stream) ---
+CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O   PIDS
+4a8e29bf1c02   parser-test   42.8%     486.2MiB / 1GiB       47.48%    182kB / 94.5kB    0B / 0B     14
+
+Evaluation Summary:
+- Total requests sent: 50
+- Total requests completed: 50 (100% success)
+- Out-of-memory (OOM) kills: 0
+- Memory Limit: 1.0 GiB (1024 MiB)
+- Peak Memory Observed: 486.2 MiB (47.48% of quota)
+- Exit code: 0

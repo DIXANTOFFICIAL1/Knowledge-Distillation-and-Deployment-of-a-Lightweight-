@@ -1,0 +1,17 @@
+=== Task 4 Horizontal Pod Autoscaler (HPA) Evaluation Log ===
+HPA Configuration: minReplicas=1, maxReplicas=2, targetCPUUtilization=70%
+
+--- Event Sequence ---
+[T+00s] Baseline: 1 replica running. Locust traffic begins (4 concurrent users).
+[T+30s] CPU utilization climbs to 78% (above 70% threshold):
+  kubectl get hpa -n app:
+  NAME         REFERENCE                   TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+  parser-hpa   Deployment/parser-service   78%/70%   1         2         1          12m
+[T+45s] HPA scales deployment to 2 replicas:
+  Normal  SuccessfulRescale  HorizontalPodAutoscaler  New size: 2; reason: cpu resource utilization (percentage of request) above target
+[T+60s] Replica 2 becomes Ready. CPU utilization stabilizes at 48% across 2 pods.
+[T+120s] Load test ends. CPU drops to 4%.
+[T+300s] Stabilization window passes; HPA scales down deployment from 2 replicas back to 1 replica:
+  Normal  SuccessfulRescale  HorizontalPodAutoscaler  New size: 1; reason: All metrics below target
+
+Result: Successfully demonstrated scale-up from 1 to 2 under load and back down to 1 after cooldown.

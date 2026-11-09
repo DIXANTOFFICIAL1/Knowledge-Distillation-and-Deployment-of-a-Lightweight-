@@ -1,0 +1,21 @@
+# Model Training Configuration for Sequence-Level Knowledge Distillation
+# Target Student: EleutherAI/pythia-70m on CPU
+
+seed: 42
+learning_rate: 0.00005
+batch_size: 8
+epochs: 3
+max_seq_length: 128
+
+library_versions:
+  torch: "2.2.2"
+  transformers: "4.38.2"
+  datasets: "2.18.0"
+  accelerate: "0.27.2"
+  evaluate: "0.4.1"
+
+model:
+  name_or_path: "EleutherAI/pythia-70m"
+  output_dir: "models/v1"
+  logging_dir: "training/logs"
+  loss_log: "training/loss.csv"

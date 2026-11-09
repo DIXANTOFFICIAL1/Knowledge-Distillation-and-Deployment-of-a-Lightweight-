@@ -1,0 +1,234 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4492 >>
+stream
+0.90 0.30 0.30 RG 1.20 w 55.00 30.00 m 55.00 810.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 50.00 m 565.00 50.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 74.00 m 565.00 74.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 98.00 m 565.00 98.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 122.00 m 565.00 122.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 146.00 m 565.00 146.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 170.00 m 565.00 170.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 194.00 m 565.00 194.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 218.00 m 565.00 218.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 242.00 m 565.00 242.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 266.00 m 565.00 266.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 290.00 m 565.00 290.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 314.00 m 565.00 314.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 338.00 m 565.00 338.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 362.00 m 565.00 362.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 386.00 m 565.00 386.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 410.00 m 565.00 410.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 434.00 m 565.00 434.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 458.00 m 565.00 458.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 482.00 m 565.00 482.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 506.00 m 565.00 506.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 530.00 m 565.00 530.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 554.00 m 565.00 554.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 578.00 m 565.00 578.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 602.00 m 565.00 602.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 626.00 m 565.00 626.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 650.00 m 565.00 650.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 674.00 m 565.00 674.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 698.00 m 565.00 698.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 722.00 m 565.00 722.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 746.00 m 565.00 746.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 770.00 m 565.00 770.00 l S
+BT /F3 8.5 Tf 65.00 815.00 Td (Dixant Soni \(Roll No: 230103029\) - Reflection Notes \(Page 1 of 3\)) Tj ET
+0.70 0.70 0.70 RG 0.50 w 65.00 810.00 m 545.00 810.00 l S
+BT /F2 15.0 Tf 65.00 780.00 Td (Student Reflection Notes: Cloud Computing Mini Project) Tj ET
+BT /F1 10.0 Tf 65.00 762.00 Td (Name: Dixant Soni | Roll No: 230103029 | Course: Cloud Computing \(CS3081\)) Tj ET
+BT /F4 8.5 Tf 65.00 748.00 Td (GitHub: https://github.com/DIXANTOFFICIAL1/Knowledge-Distillation-and-Deployment-of-a-Lightweight-) Tj ET
+BT /F2 12.0 Tf 65.00 720.00 Td (1. Executive Learning & Paradigm Shifts) Tj ET
+BT /F2 9.0 Tf 65.00 704.00 Td (* Sequence-Level Knowledge Distillation on Edge/Cloud:) Tj ET
+BT /F3 9.0 Tf 75.00 691.00 Td (Prior to this assignment, I viewed LLMs primarily through the lens of API consumers or) Tj ET
+BT /F3 9.0 Tf 75.00 679.00 Td (multi-GPU training. Distilling phi-3.5 \(3.8B parameters\) into pythia-70m on pure CPU hardware) Tj ET
+BT /F3 9.0 Tf 75.00 667.00 Td (demonstrated the immense value of task-specific sequence distillation. The student does not) Tj ET
+BT /F3 9.0 Tf 75.00 655.00 Td (need the teacher's full parameter volume; by matching discrete target sequences formatted as) Tj ET
+BT /F3 9.0 Tf 75.00 643.00 Td (strict 4-key JSON, the student achieved 70% full-frame accuracy while shrinking parameter count) Tj ET
+BT /F3 9.0 Tf 75.00 631.00 Td (by 54x.) Tj ET
+BT /F2 9.0 Tf 65.00 616.00 Td (* Decoupling Storage from Ephemeral Compute:) Tj ET
+BT /F3 9.0 Tf 75.00 603.00 Td (Storing model weights directly inside Docker container images is an anti-pattern that bloats) Tj ET
+BT /F3 9.0 Tf 75.00 591.00 Td (image transfer sizes and violates 12-factor cloud principles. By establishing SeaweedFS as an) Tj ET
+BT /F3 9.0 Tf 75.00 579.00 Td (S3-compatible in-cluster object store and downloading weights dynamically during application) Tj ET
+BT /F3 9.0 Tf 75.00 567.00 Td (initialization \(/readyz gating\), I learned how enterprise cloud infrastructures achieve rapid) Tj ET
+BT /F3 9.0 Tf 75.00 555.00 Td (microservice updates without redeploying container registries.) Tj ET
+BT /F2 9.0 Tf 65.00 540.00 Td (* Kubernetes Health Probe Synchronization:) Tj ET
+BT /F3 9.0 Tf 75.00 527.00 Td (A vital learning was probe orchestration. Setting up /healthz \(liveness\) to return 200) Tj ET
+BT /F3 9.0 Tf 75.00 515.00 Td (immediately while /readyz \(readiness\) returns 503 during model weight downloads prevented) Tj ET
+BT /F3 9.0 Tf 75.00 503.00 Td (Traefik Ingress from directing load test traffic to unready pods, eliminating 502/504 Bad) Tj ET
+BT /F3 9.0 Tf 75.00 491.00 Td (Gateway errors entirely during cold starts.) Tj ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 6 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+6 0 obj
+<< /Length 4492 >>
+stream
+0.90 0.30 0.30 RG 1.20 w 55.00 30.00 m 55.00 810.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 50.00 m 565.00 50.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 74.00 m 565.00 74.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 98.00 m 565.00 98.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 122.00 m 565.00 122.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 146.00 m 565.00 146.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 170.00 m 565.00 170.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 194.00 m 565.00 194.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 218.00 m 565.00 218.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 242.00 m 565.00 242.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 266.00 m 565.00 266.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 290.00 m 565.00 290.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 314.00 m 565.00 314.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 338.00 m 565.00 338.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 362.00 m 565.00 362.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 386.00 m 565.00 386.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 410.00 m 565.00 410.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 434.00 m 565.00 434.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 458.00 m 565.00 458.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 482.00 m 565.00 482.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 506.00 m 565.00 506.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 530.00 m 565.00 530.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 554.00 m 565.00 554.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 578.00 m 565.00 578.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 602.00 m 565.00 602.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 626.00 m 565.00 626.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 650.00 m 565.00 650.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 674.00 m 565.00 674.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 698.00 m 565.00 698.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 722.00 m 565.00 722.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 746.00 m 565.00 746.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 770.00 m 565.00 770.00 l S
+BT /F3 8.5 Tf 65.00 815.00 Td (Dixant Soni \(Roll No: 230103029\) - Reflection Notes \(Page 2 of 3\)) Tj ET
+0.70 0.70 0.70 RG 0.50 w 65.00 810.00 m 545.00 810.00 l S
+BT /F2 12.0 Tf 65.00 774.00 Td (2. Key Engineering Challenges Faced & Solutions Implemented) Tj ET
+BT /F2 9.0 Tf 65.00 758.00 Td (* Challenge 1: Ollama phi3.5 CPU Throughput & Labeling 3,000 Commands) Tj ET
+BT /F3 9.0 Tf 75.00 745.00 Td (Problem: Running phi3.5-mini-instruct locally on a single CPU thread to label 3,000 commands) Tj ET
+BT /F3 9.0 Tf 75.00 733.00 Td (projected an execution time of over 6.5 hours, threatening project deadlines.) Tj ET
+BT /F3 9.0 Tf 75.00 718.00 Td (Solution: I engineered a stateless worker sharding architecture in worker/worker.py. By) Tj ET
+BT /F3 9.0 Tf 75.00 706.00 Td (spawning multiple parallel worker pods in the 'pipeline' namespace using a deterministic modulo) Tj ET
+BT /F3 9.0 Tf 75.00 694.00 Td (strategy \(line_index % SHARD_COUNT == SHARD_INDEX\), the workload was partitioned seamlessly) Tj ET
+BT /F3 9.0 Tf 75.00 682.00 Td (with zero overlapping records and zero gaps.) Tj ET
+BT /F2 9.0 Tf 65.00 667.00 Td (* Challenge 2: PyTorch Container Image Size Constraints \(< 2 GB\)) Tj ET
+BT /F3 9.0 Tf 75.00 654.00 Td (Problem: Standard PyTorch wheels bundle extensive CUDA runtime libraries, producing Docker) Tj ET
+BT /F3 9.0 Tf 75.00 642.00 Td (images in excess of 6.2 GB, far exceeding the strict 2.0 GB submission limit.) Tj ET
+BT /F3 9.0 Tf 75.00 627.00 Td (Solution: I leveraged PyTorch's specialized CPU-only wheel repository \(--extra-index-url) Tj ET
+BT /F3 9.0 Tf 75.00 615.00 Td (https://download.pytorch.org/whl/cpu\) inside a multi-stage python:3.10-slim Dockerfile. This) Tj ET
+BT /F3 9.0 Tf 75.00 603.00 Td (reduced the final image size to 842 MB \(a 86% reduction\) while satisfying all runtime) Tj ET
+BT /F3 9.0 Tf 75.00 591.00 Td (dependencies.) Tj ET
+BT /F2 9.0 Tf 65.00 576.00 Td (* Challenge 3: Stateless NACL Asymmetric Return Traffic Blockage) Tj ET
+BT /F3 9.0 Tf 75.00 563.00 Td (Problem: In Task 5, initial packet simulations dropped outbound client replies despite valid) Tj ET
+BT /F3 9.0 Tf 75.00 551.00 Td (inbound HTTP rules.) Tj ET
+BT /F3 9.0 Tf 75.00 536.00 Td (Solution: Unlike stateful security groups, stateless NACLs require explicit return rules. I) Tj ET
+BT /F3 9.0 Tf 75.00 524.00 Td (added outbound rules for ephemeral port ranges \(1024-65535\) and placed the malicious subnet) Tj ET
+BT /F3 9.0 Tf 75.00 512.00 Td (deny rule \(198.51.100.0/24\) at rule number 100, ensuring malicious traffic is dropped before) Tj ET
+BT /F3 9.0 Tf 75.00 500.00 Td (permissive web rules are evaluated.) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 8 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+8 0 obj
+<< /Length 4250 >>
+stream
+0.90 0.30 0.30 RG 1.20 w 55.00 30.00 m 55.00 810.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 50.00 m 565.00 50.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 74.00 m 565.00 74.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 98.00 m 565.00 98.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 122.00 m 565.00 122.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 146.00 m 565.00 146.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 170.00 m 565.00 170.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 194.00 m 565.00 194.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 218.00 m 565.00 218.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 242.00 m 565.00 242.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 266.00 m 565.00 266.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 290.00 m 565.00 290.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 314.00 m 565.00 314.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 338.00 m 565.00 338.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 362.00 m 565.00 362.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 386.00 m 565.00 386.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 410.00 m 565.00 410.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 434.00 m 565.00 434.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 458.00 m 565.00 458.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 482.00 m 565.00 482.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 506.00 m 565.00 506.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 530.00 m 565.00 530.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 554.00 m 565.00 554.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 578.00 m 565.00 578.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 602.00 m 565.00 602.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 626.00 m 565.00 626.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 650.00 m 565.00 650.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 674.00 m 565.00 674.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 698.00 m 565.00 698.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 722.00 m 565.00 722.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 746.00 m 565.00 746.00 l S
+0.85 0.90 0.98 RG 0.60 w 30.00 770.00 m 565.00 770.00 l S
+BT /F3 8.5 Tf 65.00 815.00 Td (Dixant Soni \(Roll No: 230103029\) - Reflection Notes \(Page 3 of 3\)) Tj ET
+0.70 0.70 0.70 RG 0.50 w 65.00 810.00 m 545.00 810.00 l S
+BT /F2 12.0 Tf 65.00 774.00 Td (3. Observations, Findings & Architectural Improvements) Tj ET
+BT /F2 9.0 Tf 65.00 758.00 Td (* Observation: The Pareto Frontier of Compressed Models) Tj ET
+BT /F3 9.0 Tf 75.00 745.00 Td (Evaluating pythia-70m on validation.jsonl revealed that while JSON validity reached 96.0% and) Tj ET
+BT /F3 9.0 Tf 75.00 733.00 Td (intent accuracy was 96.0%, date slot extraction dropped to 76.0%. Small models excel at) Tj ET
+BT /F3 9.0 Tf 75.00 721.00 Td (learning deterministic syntax and broad categorical classification, but struggle with fuzzy) Tj ET
+BT /F3 9.0 Tf 75.00 709.00 Td (span boundaries \(e.g. distinguishing 'tomorrow' vs 'the weekend after next'\).) Tj ET
+BT /F2 9.0 Tf 65.00 694.00 Td (* Resource Utilization & Operational Costs:) Tj ET
+BT /F3 9.0 Tf 75.00 681.00 Td (During the 2-minute Locust load test with 4 concurrent users, memory consumption stabilized at) Tj ET
+BT /F3 9.0 Tf 75.00 669.00 Td (486.2 MiB \(peak\), well within the 1 GiB limit. Under the given rate card \(3.50 INR/vCPU-hr,) Tj ET
+BT /F3 9.0 Tf 75.00 657.00 Td (0.45 INR/GiB-hr\), serving 1,000 requests cost approximately 0.3657 INR, demonstrating the) Tj ET
+BT /F3 9.0 Tf 75.00 645.00 Td (massive economic benefit of lightweight specialized SLMs.) Tj ET
+BT /F2 9.0 Tf 65.00 630.00 Td (* Future Architectural Improvements:) Tj ET
+BT /F3 9.0 Tf 75.00 617.00 Td (1. Model Optimization: Incorporate INT8 quantization via ONNX Runtime or GGML to achieve) Tj ET
+BT /F3 9.0 Tf 75.00 605.00 Td (sub-50ms CPU latency.
+2. Semantic Caching: Introduce an in-memory Redis cache for frequently) Tj ET
+BT /F3 9.0 Tf 75.00 593.00 Td (queried commands \(e.g., weather and alarms\) to bypass inference entirely for 40%+ of voice) Tj ET
+BT /F3 9.0 Tf 75.00 581.00 Td (traffic.
+3. Multi-Cluster Resiliency: Extend k3d single-node orchestration to a multi-node) Tj ET
+BT /F3 9.0 Tf 75.00 569.00 Td (production Kubernetes cluster with cross-region failover.) Tj ET
+0.95 0.97 1.00 rg 0.20 0.40 0.80 RG 1.0 w 65.00 494.00 465.00 45.00 re B
+BT /F2 9.5 Tf 75.00 514.00 Td (Final Assessment Declaration:) Tj ET
+BT /F1 8.5 Tf 75.00 501.00 Td (All tasks completed autonomously using specified open-source tools. Code committed with tag 'final'.) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000292 00000 n 
+0000004836 00000 n 
+0000005001 00000 n 
+0000009545 00000 n 
+0000009710 00000 n 
+0000014012 00000 n 
+0000014082 00000 n 
+0000014158 00000 n 
+0000014232 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+14301
+%%EOF
